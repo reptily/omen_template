@@ -1,0 +1,40 @@
+{
+    "name": "omen/template",
+    "description": "php framework",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "OpenWEB",
+            "email": "reptily@mail.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.3|^8.0",
+        "omen/framework": "*",
+        "workerman/workerman": "^4.0",
+        "illuminate/database": "^8.19",
+        "illuminate/events": "^8.19",
+        "robmorgan/phinx": "^0.12.4",
+        "fzaninotto/faker": "^1.9"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "3.*",
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "App"
+        }
+    },
+    "bin":[
+        "omen"
+    ],
+    "suggest": {
+        "ext-pcntl": "Required to use all features of the queue worker."
+    },
+    "scripts": {
+        "test": "clear && ./vendor/bin/phpunit test",
+        "codecheck": "clear && php ./vendor/squizlabs/php_codesniffer/bin/phpcs -p -w -v --colors ./App"
+    }
+}

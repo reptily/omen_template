@@ -1,0 +1,15 @@
+{
+  "websocket": {
+    "host": "0.0.0.0",
+    "port": 6600
+  },
+  "database": {
+    "driver": "mysql",
+    "host": "localhost",
+    "port": "3306",
+    "login": "root",
+    "schema": "omen",
+    "password": "",
+    "power": false
+  }
+}
