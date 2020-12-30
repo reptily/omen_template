@@ -2,8 +2,8 @@
 
 ## Установка
 
-`composer create-project omen/template omen` 
-`cd omen`
+`composer create-project omen/template omen` <br>
+`cd omen` <br>
 `sh install.sh`
 
 ## Запуск
