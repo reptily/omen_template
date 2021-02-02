@@ -9,3 +9,6 @@
 ## Запуск
 
 `php omen start`
+
+## Документация
+<a href="http://omen.rf.gd/">Документация</a>
